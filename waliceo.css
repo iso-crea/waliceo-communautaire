@@ -1,0 +1,68 @@
+#articleAlone h1.uneTitle{color:#333;letter-spacing:0;font-size:2em;padding:1em 0 .5em;line-height:25px}
+#articleAlone h2{color:#721d7e;font-weight:400;font-size:1.4em;padding:1em 0 .5em;letter-spacing:normal;}
+#articleAlone h3{color:#666;font-weight:400;font-size:1.2em;padding:1em 0 .5em}
+#articleAlone h4{color:#721d7e;font-size:1.2em;padding:1em 0 .5em 3em}
+#articleAlone p{line-height:1.4em;text-align:justify}
+#articleAlone li{font-size:92%;padding:.5em 0 .5em 3em;color:#333;list-style-type:none;background:url("../bundles/maliceocontent/img/puce-violette.png") no-repeat scroll 20px 10px transparent}
+#articleAlone p strong{color:#333}
+#articleAlone p.intro{color:#666;line-height:1.7em;font-size:1.1em;font-weight:normal}
+#articleAlone a{color:#721d7e;text-decoration:underline}
+#articleAlone a:hover{text-decoration:none}
+
+.numberlist{width:450px;width:90%;}
+.numberlist ol{
+	            counter-reset: li;
+				list-style: none;
+				*list-style: decimal;
+				padding: 0;
+				margin-bottom: 4em;
+}
+#articleAlone .numberlist ol li{background-image:none;}
+#articleAlone .numberlist ol ul{overflow: hidden;}
+#articleAlone .numberlist ol li li{padding:.5em 0 .5em 3em;color:#333;list-style-type:none;background:url("../bundles/maliceocontent/img/puce-violette.png") no-repeat scroll 20px 10px transparent }
+.numberlist ol ol{
+				margin: 0 0 0 2em;
+			}
+			
+.numberlist dl{
+				position: relative;
+				display: block;
+				padding: .4em .4em .4em 2em;
+				*padding: .4em;
+				margin: .5em 0;
+				background: #FFF;
+				color: #444;
+				text-decoration: none;
+				-moz-border-radius: .3em;
+				-webkit-border-radius: .3em;
+				border-radius: .3em;
+			}
+
+.numberlist dl:hover{
+				background: #cbe7f8;
+				background: #f8f8f8;
+			}
+.numberlist dl:before{
+				content: counter(li);
+				counter-increment: li;
+				position: absolute;	
+				left: -1.3em;
+				top:15px;
+				margin-top: -1.3em;
+				background: #87ceeb;
+				background:#6B1D7C;
+				height: 2em;
+				width: 2em;
+				line-height: 2em;
+				border: .3em solid #fff;
+				text-align: center;
+				font-weight: bold;
+				-moz-border-radius: 2em;
+				-webkit-border-radius: 2em;
+				border-radius: 2em;
+				color:#FFF;
+			}
+
+.numberlist dl dt{font-weight:700;}
+.numberlist dl dd{margin:0 2em 0 0;padding:.5em 0 0;text-align:justify;overflow:hidden;height:1%;}
+.numberlist dl dd img{float:left;padding:8px 12px 8px 0;}

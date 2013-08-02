@@ -1,0 +1,58 @@
+/*
+Violet : #721D7E
+Fuschia : #c0096e
+
+*/
+
+#articleAlone h1.uneTitle{
+	  color: #333;
+ 		letter-spacing:0;
+    font-size: 2em;
+    padding: 1em 0 0.5em;
+	}
+
+
+#articleAlone h3 {
+   color: #721D7E;
+    font-weight:400;
+    font-size: 1.4em;
+    padding: 1em 0 0.5em;
+}
+
+#articleAlone p {
+    line-height:1.4em;
+    text-align:justify;
+}
+
+#articleAlone li {
+		font-size: 92%;
+		padding: .5em 0 .5em 3em;
+		color: #333;
+		background: url("../bundles/maliceocontent/img/puce-violette.png") no-repeat scroll 20px 10px transparent;
+}
+
+#articleAlone h4{
+    color: #721D7E;
+    font-size: 1.2em;
+    padding: 1em 0 0.5em 3em;
+}
+
+#articleAlone p strong {
+  color:#333;
+}
+
+#articleAlone p.intro {
+	color:#666;
+  line-height:1.7em;
+  font-size:1.1em;
+  font-weight:normal;
+} 	
+
+
+#articleAlone a {
+    color: #721D7E;
+    text-decoration:underline;
+}
+#articleAlone a:hover {
+    text-decoration:none;
+}
