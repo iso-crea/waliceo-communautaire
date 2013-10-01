@@ -3,7 +3,7 @@
 #articleAlone h3{color:#666;font-weight:400;font-size:1.2em;padding:1em 0 .5em}
 #articleAlone h4{color:#721d7e;font-size:1.2em;padding:1em 0 .5em 3em}
 #articleAlone p{line-height:1.4em;text-align:justify}
-#articleAlone li{font-size:92%;padding:.5em 0 .5em 3em;color:#333;list-style-type:none;background:url("../bundles/maliceocontent/img/puce-violette.png") no-repeat scroll 20px 10px transparent}
+#articleAlone li{font-size:92%;padding:.5em 0 .5em 3em;color:#333;list-style-type:none;background:url("../img/puce-violette.png") no-repeat scroll 20px 10px transparent}
 #articleAlone p strong{color:#333}
 #articleAlone p.intro{color:#666;line-height:1.7em;font-size:1.1em;font-weight:normal}
 #articleAlone a{color:#721d7e;text-decoration:underline}
@@ -19,7 +19,7 @@
 }
 #articleAlone .numberlist ol li{background-image:none;}
 #articleAlone .numberlist ol ul{overflow: hidden;}
-#articleAlone .numberlist ol li li{padding:.5em 0 .5em 3em;color:#333;list-style-type:none;background:url("../bundles/maliceocontent/img/puce-violette.png") no-repeat scroll 20px 10px transparent }
+#articleAlone .numberlist ol li li{padding:.5em 0 .5em 3em;color:#333;list-style-type:none;background:url("../img/puce-violette.png") no-repeat scroll 20px 10px transparent }
 .numberlist ol ol{
 				margin: 0 0 0 2em;
 			}
